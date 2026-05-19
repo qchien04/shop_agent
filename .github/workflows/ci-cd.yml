@@ -70,7 +70,7 @@ jobs:
             echo "==== START NEW CONTAINER & JOIN NETWORK ===="
             docker run -d \
               --name python-agent \
-              --network app-network \
+              --network shop-backend_app-network \
               --restart unless-stopped \
               -p 8000:8000 \
               --env-file ~/python_agent/.env \
