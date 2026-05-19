@@ -7,7 +7,7 @@ Chỉ có 2 việc:
   1. Tạo FastAPI app
   2. Chạy uvicorn
 
-Mọi logic đều nằm trong app/ — không đặt gì ở đây.
+Mọi logic đều nằm trong app/ — không đặt gì ở đây.a
 """
 
 import uvicorn
